@@ -1,9 +1,11 @@
-title: Remote enablement of RemoteRegistry service
+title: Enablement of RemoteRegistry service
 id: cf357a50-af84-4643-adfe-9aa223920f06
 status: experimental
-description: Detects remote enablement of Remote Registry service through the SCM
-author: Rubén Revuelta
+description: Detects enablement of Remote Registry service through the SCM
+author: Rubén Revuelta Briz
 date: 2022/05/20
+tags:
+    - attack.t1112
 logsource:
     category: registry_event
     product: windows
